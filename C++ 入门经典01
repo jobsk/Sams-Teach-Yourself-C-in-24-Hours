@@ -1,0 +1,12 @@
+class Tricycle
+{
+public:
+    Tricycle(int initialSpeed);
+    ~Tricycle();
+    // .....
+private:
+    int speed;
+};
+
+
+Tricycle::
