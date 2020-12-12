@@ -7,10 +7,10 @@ void swap(int *a, int *b){
 /**
  * @brief 
  * 
- * @param arr 
+ * @param arr 待排序数列
  * @param front 数列最前端的指针
  * @param end 数列最尾端的指针
- * @return int 
+ * @return int pivot的最终下标
  */
 int Partition(int *arr, int front=0, int end){
     int pivot = arr[end]; 
@@ -27,7 +27,7 @@ int Partition(int *arr, int front=0, int end){
 }
 
 /**
- * @brief 
+ * @brief 用于进行 Partition的递归调用
  * 
  * @param arr 
  * @param front 数列首元素的下标
