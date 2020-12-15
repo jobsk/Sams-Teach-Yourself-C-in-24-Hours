@@ -39,7 +39,7 @@ int main()
     {
         cout << word << " ";
     }
-    cout << endl;
+    cout << endl; // above is not important
     int a[10] = {0,9,1,5,8,3,7,4,6,2};
 	int n = 9;
     ShellSort(a, n);
