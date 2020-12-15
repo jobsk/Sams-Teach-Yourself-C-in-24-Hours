@@ -25,8 +25,8 @@ void ShellSort(int L[], int len)
 				/* 将暂存的L->r[i]插入有序增量子表 */
 				L[j + increment] = L[0];
 			}  // if (L[i] < L[i - increment])
-		}  // 一趟遍历结束
-	} while (increment > 1);
+		}  // ++i
+	} while (increment > 1); //一趟遍历结束 increment减7成+1
 
 }
 
