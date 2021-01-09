@@ -244,3 +244,5 @@ int main()
    ll.showAll();
    return 0;  // ll falls out of scope and is destroyed!
 }
+
+// C++ 入门经典19 LinkedList.cpp
